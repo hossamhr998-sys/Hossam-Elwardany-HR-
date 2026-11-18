@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark" style="color-scheme: dark; --navy: #294ba3; --navy2: #294ba3; --gold: #b07b07;"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>حسام الوردانى | استشاري الموارد البشرية وتطوير الأعمال</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;700&amp;family=IBM+Plex+Sans+Arabic:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F6F7FA;--surface:#FFFFFF;--ink:#0E1B3D;--muted:#4A5675;--line:#D9DDE8;--navy:#0B1A3F;--navy2:#122456;--gold:#B8923A;--goldsoft:#E3C77E;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#08112B;--surface:#0F1D45;--ink:#EEF1F8;--muted:#A9B3CE;--line:#233463;--gold:#D4AE5A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#08112B;--surface:#0F1D45;--ink:#EEF1F8;--muted:#A9B3CE;--line:#233463;--gold:#D4AE5A;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans Arabic",Tahoma,Arial,sans-serif;line-height:1.9;font-size:17px}
+h1,h2,h3{font-family:"El Messiri","IBM Plex Sans Arabic",Tahoma,serif;line-height:1.35;margin:0}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+header{background:var(--navy);color:#fff;position:sticky;top:env(safe-area-inset-top,0px);z-index:20}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--navy);z-index:30}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:62px}
+.brand{font-family:"El Messiri",serif;font-weight:700;font-size:20px;text-decoration:none;color:var(--goldsoft)}
+nav{display:flex;gap:20px;overflow-x:auto}
+nav a{text-decoration:none;font-size:15px;color:#DCE2F2;white-space:nowrap}
+nav a:hover,nav a:focus-visible{color:var(--goldsoft)}
+.btn{display:inline-block;padding:11px 24px;border-radius:6px;background:var(--gold);color:#0B1A3F;font-weight:600;text-decoration:none;border:1px solid var(--gold)}
+.btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.4)}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--goldsoft);outline-offset:3px}
+.hero{background:linear-gradient(180deg,var(--navy),var(--navy2));color:#fff;padding:72px 0 80px}
+.hero .wrap{display:grid;grid-template-columns:1.25fr 1fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(32px,5vw,52px);font-weight:700}
+.hero p{color:#CBD3EA;max-width:34em;margin:20px 0 30px}
+.hero .tag{color:var(--goldsoft);font-weight:500;margin-bottom:10px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.card-id{border:1px solid rgba(227,199,126,.55);border-radius:4px;padding:28px;background:rgba(255,255,255,.04)}
+.card-id h2{font-size:28px;color:#fff}
+.card-id .role{color:var(--goldsoft);margin:4px 0 18px;font-weight:500}
+.card-id dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:15px;border-top:1px solid rgba(227,199,126,.35);padding-top:16px}
+.card-id dt{color:var(--goldsoft)}
+.card-id dd{margin:0;color:#DCE2F2}
+section{padding:64px 0}
+.sec-h{margin-bottom:30px;border-inline-start:4px solid var(--gold);padding-inline-start:14px}
+.sec-h h2{font-size:clamp(26px,3.4vw,36px)}
+.sec-h p{margin:6px 0 0;color:var(--muted)}
+.about{max-width:46em;color:var(--muted)}
+.about strong{color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.svc{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:24px}
+.svc h3{font-size:21px;margin-bottom:8px}
+.svc p{margin:0;color:var(--muted);font-size:16px}
+.alt{background:var(--surface);border-block:1px solid var(--line)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1px solid var(--line);background:var(--bg);padding:8px 18px;border-radius:999px;font-weight:500}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;counter-reset:s}
+.steps li{counter-increment:s;padding:20px 22px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+.steps li::before{content:counter(s,arabic-indic);font-family:"El Messiri",serif;font-size:28px;color:var(--gold);display:block;line-height:1.2}
+.steps h3{font-size:20px;margin:4px 0}
+.steps p{margin:0;color:var(--muted);font-size:15.5px}
+.ready ul{margin:0 0 20px;padding-inline-start:22px;color:var(--muted)}
+.cta{background:var(--navy);color:#fff;text-align:center;padding:64px 0}
+.cta h2{font-size:clamp(26px,4vw,38px);margin-bottom:10px}
+.cta p{color:#CBD3EA;margin:0 0 26px}
+footer{background:#07112B;color:#B9C2DD;padding:36px 0;font-size:15px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px 40px;justify-content:space-between}
+footer a{color:var(--goldsoft);text-decoration:none}
+@media (max-width:760px){.hero .wrap{grid-template-columns:1fr;gap:32px}.hero{padding:48px 0 56px}section{padding:46px 0}header .wrap{flex-direction:column;align-items:flex-start;padding-block:10px;gap:4px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.edit-ui{font-family:"IBM Plex Sans Arabic",Tahoma,sans-serif}
+.lockbtn{position:fixed;inset-inline-start:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:50;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;opacity:.55;font-size:16px}
+.lockbtn:hover,.lockbtn:focus-visible{opacity:1}
+.ov{position:fixed;inset:0;background:rgba(5,10,30,.6);z-index:60;display:flex;align-items:center;justify-content:center;padding:20px}
+.dlg{background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:22px;width:min(360px,100%);display:grid;gap:12px}
+.dlg input[type=password],.dlg input[type=text],.dlg input[type=url]{padding:10px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit;direction:ltr;text-align:left}
+.dlg .row{display:flex;gap:10px}
+.eb{padding:9px 16px;border-radius:6px;border:1px solid var(--gold);background:var(--gold);color:#0B1A3F;font:inherit;font-weight:600;cursor:pointer}
+.eb.sec{background:transparent;color:inherit;border-color:var(--line)}
+.tb{position:fixed;inset-inline:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:55;margin:0 auto;max-width:720px;background:var(--navy);color:#fff;border:1px solid var(--gold);border-radius:10px;padding:10px 14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;font-size:14px}
+.tb label{display:flex;gap:6px;align-items:center}
+.tb input[type=color]{width:30px;height:26px;padding:0;border:0;background:none}
+.editing [contenteditable=true]:hover{outline:1px dashed var(--gold);outline-offset:2px}
+.editing [contenteditable=true]:focus{outline:2px solid var(--gold);outline-offset:2px}
+.rm{position:absolute;top:6px;inset-inline-end:6px;width:24px;height:24px;border-radius:50%;border:0;background:#B3261E;color:#fff;cursor:pointer;line-height:1;font-size:15px;z-index:5}
+.add{margin-top:14px;display:inline-block}
+.editing .svc,.editing .chip,.editing .steps li,.editing .ready li{position:relative}
+.editing .chip{padding-inline-end:34px}
+.ph{margin:0 0 16px}.ph:not(:has(img)){display:none}.editing .ph{display:block}
+.ph img{width:112px;height:112px;object-fit:cover;border-radius:50%;border:2px solid var(--goldsoft);display:block;margin-bottom:10px}
+#gallery{display:none}#gallery:has(img),.editing #gallery{display:block}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.gal figure{margin:0}.gal img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px;border:1px solid var(--line);display:block}
+.editing .gal figure{position:relative}
+</style>
+<style>artifact-sync,artifact-local{display:contents}</style></head>
+<body>
+<header>
+<div class="wrap">
+<a class="brand" href="#top">حسام الوردانى</a>
+<nav aria-label="التنقل الرئيسي">
+<a href="#about">نبذة</a><a href="#serv">خدماتي</a><a href="#fields">القطاعات</a><a href="#process">طريقة العمل</a><a href="#contact">تواصل معي</a>
+</nav>
+</div>
+</header>
+
+<main id="top">
+<div class="hero">
+<div class="wrap">
+<div>
+<div class="tag">استشاري موارد بشرية وتطوير أعمال</div>
+<h1>نبني منظومة موارد بشرية واضحة تدعم قرار الإدارة وتحمي استمرارية العمل.</h1>
+<p>أساعد الشركات والمجموعات متعددة الفروع على تنظيم إدارة الموارد البشرية، وضبط المرتبات والتقارير، وتحويل بيانات الموظفين إلى قرارات يقرؤها مجلس الإدارة بسهولة.</p>
+<div class="btns">
+<a class="btn" href="#contact">اطلب استشارة</a>
+<a class="btn ghost" href="#serv">اكتشف خدماتي</a>
+</div>
+</div>
+<aside class="card-id" aria-label="بطاقة تعريف">
+<div class="ph" id="ph"></div>
+<h2>حسام الوردانى</h2>
+<div class="role">HR Executive &amp; Business Consultant</div>
+<dl>
+<dt>التخصص</dt><dd>الموارد البشرية والتطوير التنظيمي</dd>
+<dt>المحاور</dt><dd>الاستشارات، التدريب، تحليل البيانات، الذكاء الاصطناعي في HR</dd>
+<dt>يخدم</dt><dd>الشركات، مجالس الإدارة، أصحاب الأعمال</dd>
+</dl>
+</aside>
+</div>
+</div>
+
+<section id="about"><div class="wrap">
+<div class="sec-h"><h2>نبذة</h2></div>
+<p class="about">لا أتعامل مع الموارد البشرية كأوراق وإجراءات منفصلة، بل كجزء أساسي من منظومة العمل. لذلك أبدأ من <strong>فهم المشكلة</strong> داخل المؤسسة، وأنتهي بـ<strong>نظام وتقارير قابلة للتنفيذ والمتابعة</strong> تصل إلى الإدارة العليا بشكل واضح ومختصر.</p>
+</div></section>
+
+<section id="serv" class="alt"><div class="wrap">
+<div class="sec-h"><h2>خدماتي</h2><p>ماذا يمكنني أن أقدم لمؤسستك؟</p></div>
+<div class="grid">
+<div class="svc"><h3>استشارات الموارد البشرية</h3><p>تشخيص وضع الإدارة الحالي وترتيب الأولويات واتخاذ قرارات أوضح.</p></div>
+<div class="svc"><h3>التطوير التنظيمي</h3><p>الهياكل الوظيفية، الوصف الوظيفي، وتوزيع المسؤوليات بين الفروع.</p></div>
+<div class="svc"><h3>نظم وملفات HR</h3><p>ملفات التعيين، السياسات واللوائح، ودفاتر المتابعة اليومية للإدارة.</p></div>
+<div class="svc"><h3>المرتبات والتقارير التنفيذية</h3><p>تقارير شهرية موجزة لرئيس مجلس الإدارة تلخص التكلفة والاتجاهات.</p></div>
+<div class="svc"><h3>لوحات المتابعة وتحليل البيانات</h3><p>لوحات تحكم في Excel لدوران الموظفين والحضور والإجازات.</p></div>
+<div class="svc"><h3>التدريب</h3><p>برامج تدريبية للمديرين وفرق الموارد البشرية بحسب احتياج المؤسسة.</p></div>
+<div class="svc"><h3>الذكاء الاصطناعي في HR</h3><p>استخدام الأدوات الذكية في إعداد التقارير والتحليل وتبسيط الأعمال المتكررة.</p></div>
+</div>
+</div></section>
+
+<section id="fields"><div class="wrap">
+<div class="sec-h"><h2>القطاعات</h2><p>لكل نشاط طبيعته، ولكل فريق عمل احتياجاته.</p></div>
+<div class="chips">
+<span class="chip">الرعاية الطبية</span><span class="chip">المطاعم والكافيهات</span><span class="chip">التجزئة</span><span class="chip">المجموعات متعددة الفروع</span><span class="chip">الشركات الناشئة والمتوسطة</span><span class="chip">الخدمات</span>
+</div>
+</div></section>
+
+<section id="gallery"><div class="wrap">
+<div class="sec-h"><h2>معرض الصور</h2></div>
+<div class="gal" id="gal"></div>
+</div></section>
+
+<section id="process" class="alt"><div class="wrap">
+<div class="sec-h"><h2>طريقة العمل</h2><p>خطوات واضحة من أول لقاء حتى القياس.</p></div>
+<ol class="steps">
+<li><h3>نكتشف</h3><p>نفهم الأهداف والفروع وحجم الفريق وأهم المشكلات.</p></li>
+<li><h3>نحلل</h3><p>نراجع البيانات والإجراءات الحالية ونحدد الفجوات.</p></li>
+<li><h3>نصمم</h3><p>نضع الهيكل والسياسات والنماذج المناسبة للمؤسسة.</p></li>
+<li><h3>نخطط</h3><p>نحول التصميم إلى أولويات ومهام ومؤشرات أداء.</p></li>
+<li><h3>ننفذ</h3><p>نطبق النظام ونتابع الفرق في الفروع.</p></li>
+<li><h3>نقيس</h3><p>نقرأ النتائج ونطور النظام باستمرار.</p></li>
+</ol>
+</div></section>
+
+<section class="ready"><div class="wrap">
+<div class="sec-h"><h2>هل إدارة الموارد البشرية لديك جاهزة للنمو؟</h2></div>
+<ul>
+<li>تقارير الموارد البشرية متأخرة أو غير واضحة للإدارة</li>
+<li>ملفات الموظفين والتعيينات غير موحدة بين الفروع</li>
+<li>معدل دوران الموظفين مرتفع دون معرفة الأسباب</li>
+<li>تريد التوسع في فروع جديدة بنظام جاهز</li>
+</ul>
+<a class="btn" href="#contact">لنبدأ من المشكلة</a>
+</div></section>
+
+<div class="cta" id="contact">
+<div class="wrap">
+<h2>لنبدأ من المشكلة… ونبني الحل</h2>
+<p>راسلني وصف لوضع مؤسستك، وسأرد عليك بخطوة البداية المناسبة.</p>
+<a class="btn" href="https://wa.me/20XXXXXXXXXX">واتساب</a>
+</div>
+</div>
+</main>
+
+<footer>
+<div class="wrap">
+<div>© 2026 حسام الوردانى. جميع الحقوق محفوظة.</div>
+<div>الهاتف: <a href="tel:+20XXXXXXXXXX">+20 XXX XXX XXXX</a></div>
+<div>البريد: <a href="mailto:name@example.com">name@example.com</a></div>
+<div><a href="https://www.linkedin.com/">LinkedIn</a></div>
+</div>
+</footer>
+<script>
+(()=>{
+const HASH="806ce4b85e8d3d37d43b09bedf40c964cb35c7043c4dd91b128069a8bc313a72";
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const mk=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+const sha=async t=>[...new Uint8Array(await crypto.subtle.digest("SHA-256",new TextEncoder().encode(t)))].map(b=>b.toString(16).padStart(2,"0")).join("");
+const TXT="h1,h2,h3,p,.chip,dt,dd,.brand,.tag,.role,.btn,nav a,footer div,footer a,li:not(.steps li)";
+const ITEMS=".svc,.chip,.steps li,.ready li,.gal figure";
+let tb,msgEl,lock;
+function overlay(build){const o=mk("div","ov edit-ui"),d=mk("div","dlg");o.append(d);build(d,()=>o.remove());o.addEventListener("click",e=>{if(e.target===o)o.remove()});document.body.append(o);return o}
+function msg(t){if(msgEl)msgEl.textContent=t}
+function ctl(el){if($(".rm",el))return;const b=mk("button","rm edit-ui","×");b.type="button";b.contentEditable="false";b.setAttribute("aria-label","حذف");b.onclick=e=>{e.preventDefault();e.stopPropagation();if(confirm("حذف هذا العنصر؟"))el.remove()};el.append(b)}
+function makeEditable(root){$$(TXT,root).forEach(e=>{if(e.closest(".edit-ui"))return;if(e.matches("li")&&$("h3",e))return;e.setAttribute("contenteditable","true")});$$(ITEMS,root).forEach(ctl)}
+function addBtns(){["#serv .grid","#fields .chips","#process .steps",".ready ul"].forEach(s=>{const c=$(s);if(!c)return;const b=mk("button","eb sec add edit-ui","+ إضافة");b.type="button";b.onclick=()=>{const l=c.lastElementChild;if(!l)return;const n=l.cloneNode(true);$$(".rm",n).forEach(x=>x.remove());c.append(n);ctl(n)};c.after(b)})}
+function linkEd(a){overlay((d,close)=>{d.append(mk("strong",0,"رابط الزر"));const i=mk("input");i.type="text";i.value=a.getAttribute("href")||"";d.append(i);const r=mk("div","row"),s=mk("button","eb","تطبيق"),c=mk("button","eb sec","إلغاء");s.onclick=()=>{a.setAttribute("href",i.value.trim());close()};c.onclick=close;r.append(s,c);d.append(r);i.focus()})}
+const pick=()=>new Promise(r=>{const i=document.createElement("input");i.type="file";i.accept="image/*";i.onchange=()=>r(i.files[0]);i.click()});
+async function upImg(){const f=await pick();if(!f)return null;let as=null;try{as=await claude.use("assets")}catch(e){}if(!as){msg("رفع الصور متاح لصاحب الصفحة فقط");return null}msg("جاري الرفع…");try{const r=await as.upload(f);msg("تم الرفع، اضغط حفظ ونشر");return r.url}catch(e){msg("تعذر الرفع: "+((e&&(e.code||e.message))||""));return null}}
+function imgUI(){const ph=$("#ph"),g=$("#gal");
+const pb=mk("button","eb sec add edit-ui","📷 صورة شخصية");pb.type="button";
+pb.onclick=async()=>{const u=await upImg();if(u){let im=$("img",ph);if(!im){im=mk("img");im.alt="حسام الوردانى";ph.prepend(im)}im.src=u}};ph.append(pb);
+const gb=mk("button","eb sec add edit-ui","📷 إضافة صورة");gb.type="button";
+gb.onclick=async()=>{const u=await upImg();if(u){const f=mk("figure"),im=mk("img");im.src=u;im.alt="صورة من المعرض";f.append(im);g.append(f);ctl(f)}};g.after(gb)}
+function startEdit(){
+ document.documentElement.classList.add("editing");lock.remove();
+ makeEditable(document);addBtns();imgUI();
+ document.addEventListener("click",e=>{const a=e.target.closest&&e.target.closest("a");if(a&&!a.closest(".edit-ui")&&document.documentElement.classList.contains("editing")){e.preventDefault();linkEd(a)}},true);
+ tb=mk("div","tb edit-ui");
+ const sv=mk("button","eb","حفظ ونشر"),ca=mk("button","eb sec","إلغاء");ca.style.color="#fff";
+ const col=(l,v,f)=>{const w=mk("label",0,l),i=mk("input");i.type="color";i.value=v;i.oninput=()=>f(i.value);w.append(i);return w};
+ const cs=getComputedStyle(document.documentElement);
+ const rgb=v=>v.trim().startsWith("#")?v.trim():"#0B1A3F";
+ tb.append(sv,ca,col("اللون الأساسي",rgb(cs.getPropertyValue("--navy")),v=>{document.documentElement.style.setProperty("--navy",v);document.documentElement.style.setProperty("--navy2",v)}),col("اللون الذهبي",rgb(cs.getPropertyValue("--gold")),v=>document.documentElement.style.setProperty("--gold",v)));
+ msgEl=mk("span");tb.append(msgEl);document.body.append(tb);
+ ca.onclick=()=>location.reload();
+ sv.onclick=save;
+}
+async function save(){
+ let art=null;try{art=await claude.use("artifact")}catch(e){}
+ if(!art){msg("الحفظ غير متاح هنا، افتح الصفحة من حسابك");return}
+ const c=document.documentElement.cloneNode(true);
+ $$(".edit-ui",c).forEach(e=>e.remove());
+ $$("[contenteditable]",c).forEach(e=>e.removeAttribute("contenteditable"));
+ c.classList.remove("editing");if(!c.getAttribute("class"))c.removeAttribute("class");
+ msg("جاري الحفظ…");
+ try{await art.publish("<!DOCTYPE html>\n"+c.outerHTML)}catch(e){msg(e&&e.code==="conflict"?"تم تحديث الصفحة من مكان آخر":"تعذر الحفظ: "+((e&&(e.code||e.message))||""))}
+}
+function ask(){overlay((d,close)=>{d.append(mk("strong",0,"تعديل الصفحة"));const i=mk("input");i.type="password";i.placeholder="كلمة المرور";i.autocomplete="off";d.append(i);const er=mk("small");er.style.color="#B3261E";d.append(er);const r=mk("div","row"),ok=mk("button","eb","دخول"),c=mk("button","eb sec","إلغاء");
+ const go=async()=>{if(await sha(i.value)===HASH){close();startEdit()}else er.textContent="كلمة المرور غير صحيحة"};
+ ok.onclick=go;c.onclick=close;i.onkeydown=e=>{if(e.key==="Enter")go()};r.append(ok,c);d.append(r);i.focus()})}
+lock=mk("button","lockbtn edit-ui","🔒");lock.type="button";lock.setAttribute("aria-label","تعديل الصفحة");lock.onclick=ask;
+document.body.append(lock);
+})();
+</script>
+
+
+</body></html>
